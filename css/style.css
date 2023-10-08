@@ -1,0 +1,75 @@
+.inline-block {
+    display: inline-block; 
+    vertical-align: text-top;
+    background-color: #58585d;
+}
+
+.logo {
+    width: 20%;
+    padding: 1%;
+}
+
+nav {
+    width: 75%;
+    padding: 1%
+}
+
+ul li { 
+    display: inline-block;
+    width: 25%;
+    margin-left: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #58585d;
+    padding: 25px;
+}
+
+.flexContainer {
+    display: flex;
+    width: 33%;
+    margin: 10px;
+    padding: auto;
+    flex-direction: column;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea1 myArea2 myArea3';
+}
+
+.project1 {
+    grid-area: myArea1;
+}
+
+.project2 {
+    grid-area: myArea2;
+}
+
+.project3 {
+    grid-area: myArea3;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        display: flex;
+        width: 33%;
+        margin: 10px;
+        padding: auto;
+        flex-direction: column;
+    }
+}
